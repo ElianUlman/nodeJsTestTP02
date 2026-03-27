@@ -6,5 +6,5 @@ console.log(multiplicar(2,4))
 console.log(`Area de circulo ${calculateCircleArea(2)} con PI=${PI}`)
 
 //7
-import countryCurrencyMap from "country-currency-map";
-
+import {conseguirMoneda} from "./src/modules/countryCurrency.js"
+console.log(conseguirMoneda("Argentina"))
