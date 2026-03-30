@@ -1,7 +1,7 @@
 import fs from "fs";
 let contenidoOriginal;
 
-fs.readFile("ArchivoOrigen.txt", "utf8", (error, data) => {
+fs.readFile("./src/ArchivoOrigen.txt", "utf8", (error, data) => {
   if (error) {
     console.error("Error:", error);
     return;
